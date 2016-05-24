@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="googlechrome.SingleMeetingChrome">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- googlechrome.SingleMeetingChrome -->
+      <class name="googlechrome.RecMeetingChrome">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- googlechrome.RecMeetingChrome -->
+      <class name="googlechrome.WebexRecChrome">
+        <methods>
+          <include name="setUp"/>
+          <include name="open"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- googlechrome.WebexRecChrome -->
+      <class name="googlechrome.WebexSingleChrome">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- googlechrome.WebexSingleChrome -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

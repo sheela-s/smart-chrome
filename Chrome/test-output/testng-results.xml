@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="204097" started-at="2016-05-18T12:45:18Z" finished-at="2016-05-18T12:48:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="204097" started-at="2016-05-18T12:45:18Z" finished-at="2016-05-18T12:48:42Z">
+      <class name="googlechrome.WebexSingleChrome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:googlechrome.WebexSingleChrome@ac6e3]" name="setUp" is-config="true" duration-ms="7269" started-at="2016-05-18T18:16:57Z" finished-at="2016-05-18T18:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="open()[pri:0, instance:googlechrome.WebexSingleChrome@ac6e3]" name="open" duration-ms="41982" started-at="2016-05-18T18:17:04Z" finished-at="2016-05-18T18:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:googlechrome.WebexSingleChrome@ac6e3]" name="tearDown" is-config="true" duration-ms="5919" started-at="2016-05-18T18:17:46Z" finished-at="2016-05-18T18:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- googlechrome.WebexSingleChrome -->
+      <class name="googlechrome.WebexRecChrome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:googlechrome.WebexRecChrome@1be98f5]" name="setUp" is-config="true" duration-ms="7174" started-at="2016-05-18T18:17:52Z" finished-at="2016-05-18T18:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="open()[pri:0, instance:googlechrome.WebexRecChrome@1be98f5]" name="open" duration-ms="42137" started-at="2016-05-18T18:17:59Z" finished-at="2016-05-18T18:18:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fail]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at googlechrome.WebexRecChrome.delete(WebexRecChrome.java:254)
+	at googlechrome.WebexRecChrome.open(WebexRecChrome.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:googlechrome.WebexRecChrome@1be98f5]" name="tearDown" is-config="true" duration-ms="873" started-at="2016-05-18T18:18:41Z" finished-at="2016-05-18T18:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- googlechrome.WebexRecChrome -->
+      <class name="googlechrome.RecMeetingChrome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:googlechrome.RecMeetingChrome@1a6e353]" name="setUp" is-config="true" duration-ms="7192" started-at="2016-05-18T18:16:07Z" finished-at="2016-05-18T18:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="open()[pri:0, instance:googlechrome.RecMeetingChrome@1a6e353]" name="open" duration-ms="41981" started-at="2016-05-18T18:16:14Z" finished-at="2016-05-18T18:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:googlechrome.RecMeetingChrome@1a6e353]" name="tearDown" is-config="true" duration-ms="936" started-at="2016-05-18T18:16:56Z" finished-at="2016-05-18T18:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- googlechrome.RecMeetingChrome -->
+      <class name="googlechrome.SingleMeetingChrome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:googlechrome.SingleMeetingChrome@124753a]" name="setUp" is-config="true" duration-ms="9560" started-at="2016-05-18T18:15:18Z" finished-at="2016-05-18T18:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="open()[pri:0, instance:googlechrome.SingleMeetingChrome@124753a]" name="open" duration-ms="32803" started-at="2016-05-18T18:15:28Z" finished-at="2016-05-18T18:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:googlechrome.SingleMeetingChrome@124753a]" name="tearDown" is-config="true" duration-ms="6260" started-at="2016-05-18T18:16:00Z" finished-at="2016-05-18T18:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- googlechrome.SingleMeetingChrome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
